@@ -1,0 +1,276 @@
+*{
+    font-family: 'poppins' , sans-serif;
+    font-family: 'Roboto' , sans-serif;
+    margin: 0;
+    padding: 0;
+    /*scroll-behavior: smooth;
+    scroll-padding-top: 2rem;*/
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --color:#19567f;
+    --padding:20px 5%;
+    --tran:all 0.3s ease-in-out;
+}
+
+.heading{
+    font-family: "Rakkas", cursive;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+a{
+    text-decoration: none;
+}
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+    padding: var(--padding);
+    align-items: center;
+    position: absolute;
+}
+
+
+.navigation a{
+    margin: 0 20px;
+    color: #0c0b0be6;
+    transition: var(--tran);
+  
+}
+
+
+
+#btn,
+.btn{
+    padding: 20px 20px ;
+    color: #fff;
+    background-color:var(--color);
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.btn{
+    width: 200px;
+}
+#btn:hover , 
+.btn:hover
+{
+    box-shadow: inset 0px  0px 1px 1px #fafafa;
+    color: lightgray;
+    cursor: pointer;
+}
+/* ************************************** */
+.banner{
+    display: flex;
+    padding: 20px 5%;
+    flex-wrap: wrap;
+}
+
+.bannerThought{
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bannerThought h1{
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+
+.navigation a:hover{
+    color: gray;
+}
+
+.bannerThought h1 span{
+    color: var(--color);
+    font-family: "Rakkas", cursive;
+    margin-bottom: 10px;
+}
+
+.bannerThought p{
+    margin-bottom: 10px;
+}
+
+.bannerImg{
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    /* border-radius: 15px; */
+    /* background-color: blue; */
+    /* transition: var(--tran); */
+}
+
+.bannerImg img{
+    width:600px;
+    animation-name: rotate;
+    border-radius: 15px;
+    /* position: absolute; */
+    /* animation: rotate 3s linear 3s infinite ; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* animation-name: rotate;
+    animation-duration: 5s; */
+
+  
+}
+/* @keyframes rotate{
+    from{
+        left:0;
+    }
+    to{
+        left:100px;
+    }
+    
+} */
+
+/* ************************************* */
+/* about us */
+.aboutUs{
+    display: flex;
+    padding: var(--padding);
+    flex-wrap: wrap;
+}
+
+.aboutImg{
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.aboutContent{
+    padding: 10px;
+    width: 60%;
+}
+
+.aboutContent p span{
+    color: var(--color);
+    font-size: 35px;
+    font-family: "Rakkas", cursive;
+
+}
+
+/* *****************recent blogs************* */
+.recentblogs{
+    background-color: var(--color);
+    padding: var(--padding);
+}
+
+.blogsDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.individualRecentBlogs{
+    width: 30%;
+    background-color: #fff;
+    height: 100%;
+    margin: 20px;
+}
+.individualRecentBlogs img{
+    width: 100%;
+    height: 30vh;
+}
+
+.recentBlogContent{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.recentBlogContent h4 , p , b {
+    margin-bottom: 5px;
+}
+/* contactUs */
+ .contactUs{
+    display: flex;
+    padding: var(--padding);
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contactImg{
+    text-align: center;
+    width: 40%;
+    padding: 20px;
+} 
+
+.contactImg img{
+    width: 100%;
+}
+
+.contactUs form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 0 3px 3px #fafafa;
+    border-radius: 20px;
+}
+
+.formAddress{
+    display: flex;
+    padding: 10px;
+}
+
+.formAddress div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 10px;
+    margin: 20px;
+    box-shadow:inset 0 0 3px 3px #fafafa;
+}
+
+.formAddress div i{
+    color: var(--color);
+    margin-bottom: 10px;
+}
+
+.formAddress div p span{
+    color: var(--color);
+}
+
+.formField{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color);
+    margin: 20px 0px;
+}
+
+.formBtn input{
+    outline: none;
+    border: none;
+}
+
+/* footer */
+
+footer{
+    padding: var(--padding);
+    background-color: var(--color);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul a{
+    padding: 6px 10px;
+    margin: 0 10px;
+    background-color: #fff;
+    color: var(--color);
+    border-radius: 20px;
+    transition: var(--tran);
+}
+
+footer ul a:hover{
+    box-shadow: inset 0 0 1px 1px grey;
+    color: grey;
+}
