@@ -12,7 +12,7 @@
 </head>
 <body>
          <!-- navigation -->
-       <nav class="navigation">
+       <nav class="navigation " right="20px">
         <a href="index.php">Home</a>
         <a href="index.php#about">About Us</a>
         <a href="register_form.php">Blogs</a>
@@ -23,7 +23,7 @@
          <section class="banner">
              <div class="bannerThought">
                  <h1><span>Discover</span> Monitor & Share Engaging Content</h1>
-                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis provident temporibus deleniti porro, magni cum itaque dolorem quia harum pariatur!</p>
+                 <p class="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis provident temporibus deleniti porro, magni cum itaque dolorem quia harum pariatur!</p>
                  <a href="#"class="btn">Explore Blogs</a>
                 </div>
                 <div class="bannerImg">

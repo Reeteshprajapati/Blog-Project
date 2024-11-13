@@ -32,7 +32,7 @@ a{
     justify-content: flex-end;
     padding: var(--padding);
     align-items: center;
-    position: absolute;
+    /* position: absolute; */
 }
 
 
