@@ -117,7 +117,7 @@
 <!-- <footer></footer> -->
  <footer>
     <p><i class="fa fa-copyright" aria-hidden="true"></i><?php echo date('Y');?> Copyright All Right Reserved</p>
-    <ul>
+    <ul class="icon">
         <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
         <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
         <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
