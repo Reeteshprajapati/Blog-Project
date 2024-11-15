@@ -15,7 +15,7 @@
                 <div class="menu">
                     <a href="../index.php" class="text-light text-decoration-underline m-5 "><strong>HOME PAGE</strong></a>
                     <br>
-                    <a href="create.php" class="text-light text-decoration-underline m-5"><strong>ADD New Post</strong></a>
+                    <a href="create.php" class="text-light text-decoration-underline m-5"><strong>ADD New </strong></a>
                 </div>
             </div>
         </div>
